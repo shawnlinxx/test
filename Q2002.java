@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Volume{
         /**
-	 *          * @param args
-	 *                   */
+	 *@param args
+	 */
 	public static final PI = 3.1415927;
 	public static void main(String args[]){
 		Scanner s = new Scanner(System.in);
