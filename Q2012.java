@@ -16,10 +16,10 @@ public class Prime {
 		System.out.println("Pls enter the second number");
 		int y = sc.nextInt();
 		if(x == 0 && y == 0)
-			break;
+			return;
 		else {
 			for(int i = x;i <= y; i++) {
-				if(Prime.isPrime(i) != 1)
+				if(!Prime.isPrime(i))
 				       System.out.println("Sorry!");
 				}
 			 System.out.println("OK!");
